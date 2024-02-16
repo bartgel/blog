@@ -2,8 +2,9 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    padding: 4px;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: $darker-color;
+    color: $dark-color-font_text;
     text-align: center;
  }

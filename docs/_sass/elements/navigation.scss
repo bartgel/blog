@@ -1,20 +1,16 @@
-body {
-    background-color: grey;   
-}
-
-.navigation, ul {
+ul.navigation  {
     
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-
+    background-color: $dark-color ;
 
 
     li {
         float: left;
-        border-right:1px solid #bbb;
+        border-right:1px solid $subtile-color;
+
     }
     li:last-child {
         border-right: none;
@@ -22,19 +18,19 @@ body {
       
     li a {
         display: block;
-        color: white;
+        color: $dark-color-font_text;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
       }
       
     li a:hover:not(.active) {
-        background-color: #111;
+        background-color: $darker-color;
       }
       
     .active {
-        background-color: #04AA6D;
+        background-color: $dark-active-color;
+        color: $dark-active-color-font-text;
     }
 
   }
-

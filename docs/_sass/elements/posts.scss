@@ -1,0 +1,50 @@
+.content {
+    margin: 8px;
+
+    .home {
+        border: 2px solid $focus-border;
+        padding-top: 0px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: $focus-color-background;
+    }
+    h2 {
+        background-color: $light-color-background;
+        margin-block-start:0px;
+        margin-block-end:0px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        color: $light-color-font-text;
+    }
+}
+
+
+.content {
+    margin: 8px;
+
+    .post {
+        border: 2px solid $focus-border;
+        padding-top: 0px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: $focus-color-background;
+    }
+    h1 {
+        background-color: $light-color-background;
+        margin-block-start:0px;
+        margin-block-end:0px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        color: $light-color-font-text;
+    }
+}
