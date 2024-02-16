@@ -6,8 +6,19 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 <body>
+    <nav>
+        <ul class="navigation">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+    </nav>
   <section class="content">
     {{ content }}
   </section>
+  <footer>
+    {{ site.data.labels.footer.text }}
+  </footer>
 </body>
 </html>
