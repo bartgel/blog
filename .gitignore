@@ -1,0 +1,3 @@
+*.swp
+docs/Gemfile.lock
+docs/_site
