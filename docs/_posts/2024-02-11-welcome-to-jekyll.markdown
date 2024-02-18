@@ -15,7 +15,14 @@ tags: blog design
 
 # Values
 
-- Content first -> Honest -> Clear
+- Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and comments -> Not to earn money
+
+# Features
+
+Blog
+Tags
+
+Comments
 
 # Workflow
 

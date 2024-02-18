@@ -4,5 +4,5 @@ title: About
 permalink: /tags/
 ---
 
-# About me
+a post without tags is like wine without grapes
 

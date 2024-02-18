@@ -2,20 +2,26 @@
 layout: default
 ---
 
-<div class="snippets">
-  <h1 class="snippets-heading">Articles tagged with "{{ page.tagname }}"</h1>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+      <h1 class="post-title p-name" itemprop="name headline">Tag: {{ page.tagname }}</h1>
 
   <ul>
 
   {% for post in site.posts %}
   {% if post.tags contains page.tagname %}
-  <li><a class="post" href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><a class="" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endif %}
   {% endfor %}
 </ul>
 
 </div>
+    </header>
+</article>
+&nbsp;
 
-
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 {{ content }}
+</article>
 
