@@ -54,13 +54,15 @@ layout: default
           </div>
           <!-- https://blog.lunarlogic.com/2019/managing-tags-in-jekyll-blog-easily/-->
           <div class="col-ss-6 col-s-9 col-m-12">
-            {% for tag in page.tags %}
-              {% assign tag_slug = tag | slugify: "raw" %}
-              <a class="tag-link"
-                href={{ "/tags/" | append: tag_slug | append: "/"  | relative_url}} rel="category tag">
-                #{{ tag }}
-              </a>
-            {% endfor %}
+            <div class="chips">
+              {% for tag in page.tags %}
+                {% assign tag_slug = tag | slugify: "raw" %}
+                <a class="chip"
+                  href={{ "/tags/" | append: tag_slug | append: "/"  | relative_url}} rel="category tag">
+                  {{ tag }}
+                </a>
+              {% endfor %}
+            </div>
 
           </div>
         </div>

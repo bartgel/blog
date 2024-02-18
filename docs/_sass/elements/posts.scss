@@ -46,3 +46,23 @@
 
     }
 }
+
+$chip-height: 32px;
+
+.chips {
+    padding: 0px 0;
+    .chip {
+        display: inline-block;
+        background: $chip-color-background;
+        margin: 0 5px 3px 0;
+        padding: 0 12px;
+        border-radius: 32px;
+        font-size: 13px;
+        height: $chip-height;
+        line-height: $chip-height;
+        color: $chip-color;
+        text-decoration: none;
+
+    }
+}  
+
