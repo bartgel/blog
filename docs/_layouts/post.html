@@ -5,7 +5,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">About this post</h1>
 
     <div class="row">
       <div class="col-s-6 col-m-4 col-l-3 col-xl-2">
@@ -36,12 +36,10 @@ layout: default
             <span class="title">Author:</span>
           </div>
           <div class="col-ss-6 col-m-12">
-          Bart Geluykens
-
           {%- if page.author -%}
           • {% for author in page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+              <span class="p-author h-card" itemprop="name"><a href="http://localhost:4000/about/">{{ author }}</a></span></span>
               {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
         {%- endif -%}
@@ -54,8 +52,16 @@ layout: default
             <span class="icon icon-label"></span>
             <span class="title">Tags:</span>
           </div>
-          <div class="col-ss-6 col-s-9 col-m-12"></div>
-          TAG1, TAG2
+          <!-- https://blog.lunarlogic.com/2019/managing-tags-in-jekyll-blog-easily/-->
+          <div class="col-ss-6 col-s-9 col-m-12">
+            {% for tag in page.tags %}
+              {% assign tag_slug = tag | slugify: "raw" %}
+              <a class="tag-link"
+                href={{ "/tags/" | append: tag_slug | append: "/"  | relative_url}} rel="category tag">
+                #{{ tag }}
+              </a>
+            {% endfor %}
+
           </div>
         </div>
       </div>

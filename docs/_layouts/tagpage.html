@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="snippets">
+  <h1 class="snippets-heading">Articles tagged with "{{ page.tagname }}"</h1>
+
+  <ul>
+
+  {% for post in site.posts %}
+  {% if post.tags contains page.tagname %}
+  <li><a class="post" href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+</div>
+
+
+{{ content }}
+
