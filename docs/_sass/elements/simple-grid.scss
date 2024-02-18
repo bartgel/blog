@@ -1,0 +1,64 @@
+/* https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+$responsive-max-width-extra-small: 600px;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+$responsive-min-width-small: 601px;
+$responsive-max-width-small: 767px;
+
+/* Medium devices (landscape tablets, 768px and up) */
+$responsive-min-width-medium: 768px;
+$responsive-min-width-medium: 991px;
+
+/* Large devices (laptops/desktops, 992px and up) */
+$responsive-min-width-large: 992px;  
+$responsive-max-width-large: 1199px;  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+$responsive-min-width-extra-large: 1200px;  
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@mixin create-grid($size) {
+    @for $i from 1 through 12 {
+        .col-#{$size}-#{$i} {
+          width: calc( 100% / 12 * #{$i});
+          float: left;
+        }
+        .col-#{$size}-center-#{$i} {
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+@include create-grid('ss');
+
+@media only screen and (min-width: $responsive-min-width-small) {
+    @include create-grid('s');
+}
+  
+@media only screen and (min-width: $responsive-min-width-medium) {
+   @include create-grid('m');
+}
+
+@media only screen and (min-width: $responsive-min-width-large) {
+    @include create-grid('l');
+}
+
+@media only screen and (min-width: $responsive-min-width-extra-large) {
+    @include create-grid('xl');
+}

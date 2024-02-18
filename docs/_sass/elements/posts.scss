@@ -1,6 +1,7 @@
 .content {
     margin: 8px;
 
+
     .home, .post {
         border: 2px solid $focus-border;
         padding-top: 0px;
@@ -22,5 +23,26 @@
             margin-right: -8px;
             color: $light-color-font-text;
         }
+    }
+}
+
+.metadata {
+    padding: 4px;
+
+    .icon {
+        margin-left: 8px;
+        width: 100%;
+        color: $subtile-text;
+        font-size: 24px;
+        display: initial;
+    }
+
+
+    .title {
+        //font-size: 24px;
+        color: $less-subtile-text;
+        vertical-align: super;
+        font-weight: bold;
+
     }
 }

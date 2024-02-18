@@ -23,8 +23,23 @@
     font-feature-settings: 'liga';
 }
 
+// https://fonts.google.com/icons
+
 .icon-home::before {
     content: '\E88A';
 }
+
+.icon-calendar::before {
+    content: '\e935';
+}
+
+.icon-face::before {
+    content: '\e87c';
+}
+
+.icon-label::before {
+    content: '\e892';
+}
+
 
   // https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24
