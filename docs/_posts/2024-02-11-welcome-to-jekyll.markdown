@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Creating blog posts"
+title:  "Unleashing your inner voice: my journey of starting a blog in 2024"
 date:   2024-02-11 11:54:00 +0100
-categories: jekyll update
-description: Starting a blog
+description: I will outline the process I followed to transform my initial idea into a fully realized blog. Discover how to efficiently establish a brand new blog within a matter of days, rather than the usual timeframe of weeks.
 author:
   - Bart Geluykens
 tags: blog design
+image: "blog-pixabay.jpg"
 ---
 
 # Why
@@ -15,7 +15,7 @@ tags: blog design
 
 # Values
 
-- Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and comments -> Not to earn money
+- Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and -> Not to earn money
 
 # Features
 

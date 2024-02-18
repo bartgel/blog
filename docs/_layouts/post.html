@@ -5,7 +5,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">About this post</h1>
+    <h1 class="post-title p-name" itemprop="name headline">{{page.title}}</h1>
 
     <div class="row">
       <div class="col-s-6 col-m-4 col-l-3 col-xl-2">
@@ -77,6 +77,10 @@ layout: default
   </header>
 
   </article>
+
+  <div>&nbsp;</div>
+
+  <img width="100%" style="max-height:300px;object-fit: fill" src="{{ '/assets/image/' | append: page.image | relative_url }}"/>
 
   <div>&nbsp;</div>
 
