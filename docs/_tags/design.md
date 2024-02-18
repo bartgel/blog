@@ -1,9 +1,7 @@
 ---
 layout: tagpage
-tagname:  "design"
-date:   2024-02-11 11:54:00 +0100
-author:
-  - Bart Geluykens
+tagname:  design
+title: This is a test tag
 ---
 
-aawersfd
+This is a test tag will be removed
