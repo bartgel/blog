@@ -13,9 +13,18 @@ image: "blog-pixabay.jpg"
 
 - Learning spanish -> podcasts -> interests -> obisidan ->
 
+# What
+
+- IT technical and IT non-technical articles about managing and executing IT project in a mindfull matter
+
 # Values
 
-- Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and -> Not to earn money
+- Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and -> Non-profit
+
+# Users
+
+- IT Profesionals, Management mainly throught Mobile
+- Robots google
 
 # Features
 

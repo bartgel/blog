@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title p-name" itemprop="name headline">Personal details</h1>
+   
+    <div class="row">
+      <div class="col-s-4 col-m-2">Here comes a picture</div>
+      <div class="col-s-8 col-m-6">
+        <div class="row">
+          <div class="col-ss-6">
+            <b>Name:</b><br/>
+            {{page.authorname }}
+          </div>
+          <div class="col-ss-6">
+            <b>Occupation:</b><br/>
+            {{page.occupation }}
+          </div>          
+          <div class="col-ss-6">
+            <b>Birthdate:</b><br/>
+            {{page.birthdate }}<br/>
+            {{page.birthplace}}
+          </div>
+          <div class="col-ss-6">
+            <b>home:</b><br/>
+            {{page.home }}
+          </div>          
+        </div>
+      </div>
+      <div class="col-s12-col-m4">
+         <b>socials</b><br/>
+         <a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a><br/>
+         
+         <b>spoken languages/ carreer</b><br/>
+         <div class="chips">
+            <a href="{{page.cv-en}}" class="chip">English</a>
+            <a href="{{page.cv-fr}}" class="chip">French</a>
+            <a href="{{page.cv-nl}}" class="chip">Dutch</a>
+            <a href="{{page.cv-es}}" class="chip">Español</a>
+        </div>
+      </div>
+    </div>
+</article>
+
+&nbsp;
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    {{ content }}
+</article>
