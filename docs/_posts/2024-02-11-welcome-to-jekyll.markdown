@@ -17,17 +17,27 @@ image: "blog-pixabay.jpg"
 
 - IT technical and IT non-technical articles about managing and executing IT project in a mindfull matter
 
+# Planning for the blog
+
+-> Value maps
+-> Research
+-> Get your audience
+-> Plan
+
+
 # Values
 
 - Content first -> Honest -> Clear -> Simple -> For me to learn by explaining and -> Non-profit
 
-# Users
+# Audience
 
 - IT Profesionals, Management mainly throught Mobile
 - Robots google
 
 # Features
 
+Minimalistic design
+Easy to scan
 Blog
 Tags
 
@@ -37,6 +47,8 @@ Comments
 
 Obsidian -> generate ideas -> Blog
 
+# Platform
+
 3 canals:
 
 - linkedin blogs
@@ -44,6 +56,9 @@ Obsidian -> generate ideas -> Blog
 - own blog
 
 => Most easy github with ideas
+
+
+## This is already an other blogpost
 
 # Creating in github
 
