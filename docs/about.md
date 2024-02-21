@@ -21,18 +21,6 @@ cv-nl: https://
 cv-fr: https://
 ---
 
-# About me
-
-Name
-Birthplace, year
-Spoken Languages
-Occupation
-Add links to CV
-Social
-
-<div style="background-color:red;">aa</div>
-
-Born in Belgium -> Career -> live in spain, ...
 
 ## Passions
 
@@ -43,3 +31,11 @@ Values:
 
 - Focus on content
 - Honest
+
+Articles
+
+- Simple
+- Practical
+
+
+Consious Solutions -> logo wind blows away clouds
