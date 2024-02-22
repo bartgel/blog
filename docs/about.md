@@ -21,21 +21,12 @@ cv-nl: https://
 cv-fr: https://
 ---
 
+A passion for technique drove me towards a carreer as in software developement. For more than 20 years I used to dive deep into the code and build a strong reputation as a c, pl-sql and java developer.
 
-## Passions
+These skills combined with my passion in understanding people eventual lead me to a career as a software architect. 
 
+When I was 35 I also discovered the magical world of yoga and I got (a little bit) more spiritual. By spiritual I mean discovering myself and finding ways to constantly improve myself.
 
-# Why this blog
+This lead to a lot of knowledge, that I would love to combine.
 
-Values:
-
-- Focus on content
-- Honest
-
-Articles
-
-- Simple
-- Practical
-
-
-Consious Solutions -> logo wind blows away clouds
+What you might expect is a collection of practical and usefull blogpost that will support you and let you see the power of these skills combined.

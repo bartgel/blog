@@ -3,19 +3,12 @@ layout: default
 ---
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 class="post-title p-name" itemprop="name headline">Barts blog ** Add cachy name **</h1>
-    <b>What:</b> Personal interest blog<br/>
-    selfdevelopment, spirualidad, technique and projectmanagement<br/>
-    <b>Values</b><br/>
-    content-driven, clear and simple,honest, non-profit, community driven<br/>
+    <h1 class="post-title p-name" itemprop="name headline">{{ site.title }}</h1>
+     {{ content }}
 </article>
 
 &nbsp;
-
-
-  
-    {{ content }}
-  
+ 
   
     {% if site.paginate %}
       {% assign posts = paginator.posts %}

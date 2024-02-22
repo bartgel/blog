@@ -1,2 +1,15 @@
 footer:
-   text: Barts Footer
+   text: Consious Solutions
+values:
+  - value: Content-driven
+  - value: Clear and simple
+  - value: Honest
+  - value: Non-profit
+  - value: Community driven   
+  - value: Practical / applicable
+mission: Helping people with providing them clear information and tips that will improve their skills.
+topics:
+  - topic: Selfdevelopment
+  - topic: Spiritualidad
+  - topic: Building software 
+  - topic: Projectmanagement

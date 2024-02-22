@@ -3,36 +3,36 @@ layout: default
 ---
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 class="post-title p-name" itemprop="name headline">Personal details</h1>
+    <h1 class="post-title p-name" itemprop="name headline">About the author</h1>
    
     <div class="row">
       <div class="col-s-4 col-m-2">Here comes a picture</div>
       <div class="col-s-8 col-m-6">
         <div class="row">
           <div class="col-ss-6">
-            <b>Name:</b><br/>
+            <div class="metadata"><span class="title">Name</span></div>
             {{page.authorname }}
           </div>
           <div class="col-ss-6">
-            <b>Occupation:</b><br/>
+            <div class="metadata"><span class="title">Occupation</span></div>
             {{page.occupation }}
           </div>          
           <div class="col-ss-6">
-            <b>Birthdate:</b><br/>
+            <div class="metadata"><span class="title">Birthdate</span></div>
             {{page.birthdate }}<br/>
             {{page.birthplace}}
           </div>
           <div class="col-ss-6">
-            <b>home:</b><br/>
+            <div class="metadata"><span class="title">Home</span></div>
             {{page.home }}
           </div>          
         </div>
       </div>
       <div class="col-s12-col-m4">
-         <b>socials</b><br/>
+        <div class="metadata"><span class="title">Socials</span></div>
          <a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a><br/>
          
-         <b>spoken languages/ carreer</b><br/>
+         <div class="metadata"><span class="title">Carreer</span></div>
          <div class="chips">
             <a href="{{page.cv-en}}" class="chip">English</a>
             <a href="{{page.cv-fr}}" class="chip">French</a>
@@ -46,5 +46,35 @@ layout: default
 &nbsp;
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="post-title p-name" >About the blog</h1>
+
+  <div class="metadata"><span class="title">Values</span></div>
+
+  <div class="row">
+    {%- for value in  site.data.labels.values  -%}
+    <div class="col-ss-6 col-s-4 col-l-2">{{ value.value }}</div>
+    {% endfor %}
+  </div>
+
+  <div class="metadata"><span class="title">Mission</span></div>
+  <div>{{ site.data.labels.mission }}</div>
+
+  <div class="metadata"><span class="title">Topics</span></div>
+
+  <div class="row">
+    {%- for topic in site.data.labels.topics  -%}
+      <div class="col-ss-6 col-m-3">{{ topic.topic }}</div>
+    {% endfor %}
+  </div>
+
+
+
+</article>
+
+&nbsp;
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="post-title p-name" >A word from the author</h1>
     {{ content }}
 </article>
