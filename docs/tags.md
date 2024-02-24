@@ -1,7 +1,7 @@
 ---
 layout: alltags
-title: Tags - overview
+title: Topics - overview
 permalink: /tags/
 ---
 
-A post without tags is like wine without grapes
+A post without topics is like wine without grapes

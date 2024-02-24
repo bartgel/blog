@@ -30,6 +30,7 @@ But why not sharing these thoughts with the rest of the world, get peoples react
 
 ### Step 01: Create a vision board
 
+One of the most important things is that you need to know where you are heading to.
 
 
 

@@ -10,34 +10,49 @@ layout: default
       <div class="col-s-8 col-m-6">
         <div class="row">
           <div class="col-ss-6">
-            <div class="metadata"><span class="title">Name</span></div>
-            {{page.authorname }}
+            <div class="metadata">
+              <span class="icon icon-badge"></span> <span class="title">Name</span>
+              <div class="text">{{page.authorname }}</div>
+            </div>
+            
           </div>
           <div class="col-ss-6">
-            <div class="metadata"><span class="title">Occupation</span></div>
-            {{page.occupation }}
+            <div class="metadata">
+              <span class="icon icon-engineering"></span> <span class="title">Occupation</span>
+              <div class="text">{{page.occupation }}</div>
+            </div>
           </div>          
           <div class="col-ss-6">
-            <div class="metadata"><span class="title">Birthdate</span></div>
-            {{page.birthdate }}<br/>
-            {{page.birthplace}}
+            <div class="metadata">
+              <span class="icon icon-cake"></span> <span class="title">Birthdate</span></div>
+              <div class="text"> {{page.birthdate }}<br/>{{page.birthplace}}</div>
+           
           </div>
           <div class="col-ss-6">
-            <div class="metadata"><span class="title">Home</span></div>
-            {{page.home }}
+            <div class="metadata">
+              <span class="icon icon-pin-drop"></span> <span class="title">Home</span>
+              <div class="text">{{page.home }}</div>
+            </div>
           </div>          
         </div>
       </div>
       <div class="col-s12-col-m4">
-        <div class="metadata"><span class="title">Socials</span></div>
-         <a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a><br/>
+        <div class="metadata">
+          <span class="icon icon-handshake"></span> <span class="title">Socials</span>
+          <div class="text">
+            <a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a></div>
+        </div>
          
-         <div class="metadata"><span class="title">Carreer</span></div>
-         <div class="chips">
-            <a href="{{page.cv-en}}" class="chip">English</a>
-            <a href="{{page.cv-fr}}" class="chip">French</a>
-            <a href="{{page.cv-nl}}" class="chip">Dutch</a>
-            <a href="{{page.cv-es}}" class="chip">Español</a>
+         <div class="metadata">
+          <span class="icon icon-domain"></span> <span class="title">Carreer</span>
+          <div class="text">
+          <div class="chips">
+              <a href="{{page.cv-en}}" class="chip">English</a>
+              <a href="{{page.cv-fr}}" class="chip">French</a>
+              <a href="{{page.cv-nl}}" class="chip">Dutch</a>
+              <a href="{{page.cv-es}}" class="chip">Español</a>
+          </div>
+        </div>
         </div>
       </div>
     </div>

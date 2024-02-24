@@ -15,10 +15,10 @@ spoken-languages:
 - French
 facebook: https://
 linkedin: https://
-cv-en: https://
-cv-es: https://
-cv-nl: https://
-cv-fr: https://
+cv-en: https://github.com/bartgel/web/releases/download/main/cv_en.pdf
+cv-es: https://github.com/bartgel/web/releases/download/main/cv_es.pdf
+cv-nl: https://github.com/bartgel/web/releases/download/main/cv_nl.pdf
+cv-fr: https://github.com/bartgel/web/releases/download/main/cv_fr.pdf
 ---
 
 A passion for technique drove me towards a carreer as in software developement. For more than 20 years I used to dive deep into the code and build a strong reputation as a c, pl-sql and java developer.

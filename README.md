@@ -11,3 +11,7 @@ https://ahrefs.com/writing-tools/blog-title-generator
 https://deku.posstree.com/en/jekyll/utterances/
 
 https://medium.com/@raravi/adding-comments-to-a-static-site-31506e77fc41
+
+
+bundle exec jekyll serve
+
