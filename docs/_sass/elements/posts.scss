@@ -47,6 +47,8 @@
 
 .metadata {
     padding: 4px;
+    display: inline;
+    width: 100%;
 
     .icon {
         margin-left: 8px;
@@ -58,7 +60,6 @@
 
 
     .title {
-        //font-size: 24px;
         color: $less-subtile-text;
         vertical-align: super;
         font-weight: bold;

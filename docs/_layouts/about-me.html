@@ -6,54 +6,80 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">About the author</h1>
    
     <div class="row">
-      <div class="col-s-4 col-m-2">Here comes a picture</div>
+      <div class="col-s-4 col-m-2">  
+        <img width="150px" style="object-fit: fill" 
+        src="{{ '/assets/image/profile.png' | relative_url }}"/>
+      </div>
       <div class="col-s-8 col-m-6">
         <div class="row">
           <div class="col-ss-6">
-            <div class="metadata">
-              <span class="icon icon-badge"></span> <span class="title">Name</span>
-              <div class="text">{{page.authorname }}</div>
-            </div>
-            
+            {% include metadata.html 
+              icon="icon-badge" 
+              title="Name" 
+              text=page.authorname
+            %}
           </div>
           <div class="col-ss-6">
-            <div class="metadata">
-              <span class="icon icon-engineering"></span> <span class="title">Occupation</span>
-              <div class="text">{{page.occupation }}</div>
-            </div>
+              {% include metadata.html 
+                icon="icon-engineering" 
+                title="Occupation" 
+                text=page.occupation
+              %}
           </div>          
           <div class="col-ss-6">
-            <div class="metadata">
-              <span class="icon icon-cake"></span> <span class="title">Birthdate</span></div>
-              <div class="text"> {{page.birthdate }}<br/>{{page.birthplace}}</div>
-           
+              {% capture new_birth %}{{page.birthdate }}<br/>{{page.birthplace}}{% endcapture %}
+              {% include metadata.html 
+                icon="icon-cake" 
+                title="Birthdate" 
+                text=new_birth
+              %}
           </div>
           <div class="col-ss-6">
-            <div class="metadata">
-              <span class="icon icon-pin-drop"></span> <span class="title">Home</span>
-              <div class="text">{{page.home }}</div>
-            </div>
+            {% include metadata.html 
+              icon="icon-pin-drop" 
+              title="Home" 
+              text=page.home
+            %}
           </div>          
         </div>
       </div>
       <div class="col-s12-col-m4">
-        <div class="metadata">
-          <span class="icon icon-handshake"></span> <span class="title">Socials</span>
-          <div class="text">
-            <a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a></div>
+        {% capture new_social %}<a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a>{% endcapture %}
+        {% include metadata.html 
+          icon="icon-handshake" 
+          title="Socials" 
+          text=new_social
+        %}
+
+        {% capture new_carreer %}
+        <div class="chips">
+          <a href="{{page.cv-en}}" class="chip">English</a>
+          <a href="{{page.cv-fr}}" class="chip">French</a>
+          <a href="{{page.cv-nl}}" class="chip">Dutch</a>
+          <a href="{{page.cv-es}}" class="chip">Español</a>
         </div>
-         
-         <div class="metadata">
-          <span class="icon icon-domain"></span> <span class="title">Carreer</span>
-          <div class="text">
-          <div class="chips">
-              <a href="{{page.cv-en}}" class="chip">English</a>
-              <a href="{{page.cv-fr}}" class="chip">French</a>
-              <a href="{{page.cv-nl}}" class="chip">Dutch</a>
-              <a href="{{page.cv-es}}" class="chip">Español</a>
-          </div>
+        {% endcapture %}
+
+        {% include metadata.html 
+          icon="icon-domain" 
+          title="Carreer" 
+          text=new_carreer
+        %}
+
+        {% capture new_hobbies %}
+        <div class="chips">
+          <a href="" class="chip">Traveling</a>
+          <a href="" class="chip">Yoga</a>
+          <a href="" class="chip">Diving</a>
         </div>
-        </div>
+        {% endcapture %}
+
+        {% include metadata.html 
+          icon="icon-sports-gymnastics" 
+          title="Hobbies" 
+          text=new_hobbies
+        %}
+
       </div>
     </div>
 </article>
