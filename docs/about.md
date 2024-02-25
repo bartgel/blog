@@ -21,12 +21,20 @@ cv-nl: https://github.com/bartgel/web/releases/download/main/cv_nl.pdf
 cv-fr: https://github.com/bartgel/web/releases/download/main/cv_fr.pdf
 ---
 
-A passion for technique drove me towards a carreer as in software developement. For more than 20 years I used to dive deep into the code and build a strong reputation as a c, pl-sql and java developer.
+## About me
 
-These skills combined with my passion in understanding people eventual lead me to a career as a software architect. 
+From code wizard to yoga guru - meet the software architect with a twist!
 
-When I was 35 I also discovered the magical world of yoga and I got (a little bit) more spiritual. By spiritual I mean discovering myself and finding ways to constantly improve myself.
+For over two decades, I've been crafting tech masterpieces in C, PL-SQL, and Java, earning my stripes as a coding virtuoso. But here's where it gets interesting - my journey led me to embrace the art of understanding people and ascend to the realm of software architecture.
 
-This lead to a lot of knowledge, that I would love to combine.
+At 35, I delved into the enchanting world of yoga, adding a sprinkle of spirituality to my life. Through self-discovery and constant growth, I've amassed a wealth of knowledge waiting to be unleashed.
 
-What you might expect is a collection of practical and usefull blogpost that will support you and let you see the power of these skills combined.
+Dive into the fusion of tech expertise and spiritual wisdom with me. Let's create something truly exceptional together!
+
+## Why this blog
+
+Stay focused while coding!
+
+Tired of losing focus while developing your product? I get it. This blog will be all about building solutions that helps you consciously build your product without getting lost in technical details. Let's share our passions and create something amazing together.
+
+Ditch the distractions and start consciously building solutions today! Let's code together and turn your ideas into reality.

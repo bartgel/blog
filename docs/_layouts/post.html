@@ -58,7 +58,8 @@ layout: default
               {% for tag in page.tags %}
                 {% assign tag_slug = tag | slugify: "raw" %}
                 <a class="chip"
-                  href={{ "/tags/" | append: tag_slug | append: "/"  | relative_url}} rel="category tag">
+                  href={{ "/tags/" | append: tag_slug | append: "/"  | relative_url}} rel="category tag"
+                  aria-label="Go to tag {{tag.tagname}}">
                   {{ tag }}
                 </a>
               {% endfor %}
@@ -82,7 +83,7 @@ layout: default
 
   <div>&nbsp;</div>
 
-  <img width="100%" style="max-height:300px;object-fit: fill" src="{{ '/assets/image/' | append: page.image | relative_url }}"/>
+  <img width="100%" alt="{{page.title}}" style="max-height:300px;object-fit: fill" src="{{ '/assets/image/' | append: page.image | relative_url }}"/>
 
   <div>&nbsp;</div>
 

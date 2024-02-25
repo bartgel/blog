@@ -7,16 +7,15 @@ author:
   - Bart Geluykens
 tags: blog design
 image: "blog-pixabay.jpg"
-toc: true
 ---
 
 ## The day I decided to write a blog
 
-It was a strange period. During covid all of us where managing one lockdown after another and still I decided to give up my amazing and secure job and move to Spain.
+In the midst of continuous lockdowns brought about by the Covid-19 pandemic, I made a seemingly unconventional decision. Despite having a secure and fulfilling job, I chose to leave it all behind and relocate to Spain. 
 
-I did have some basic knowledge of the spanish language, but way not enough to be able to speak it fluently. So I started to listen to podcasts in Spanish. These podcasts gave me a lot of ideas and things that I started to write down in a tool called Obsidian, but basically I was sitting on a ton of notes that where gathering dust.
+Although I had a basic understanding of the Spanish language, fluency was still far from my reach. Determined to improve, I turned to podcasts in Spanish for guidance and inspiration. These podcasts provided me with a wealth of ideas that I eagerly captured in the note-taking tool, Obsidian. 
 
-But why not sharing these thoughts with the rest of the world, get peoples reaction and improve my ideas. I could not resist this idea and eventually the rest is history. We will guide you through all the steps we did to start this amazing adventure in the blogging industry.
+Over time, I realized the potential impact of sharing these thoughts with the world, receiving feedback, and refining my ideas. And so, with this irresistible idea in mind, I embarked upon an exciting adventure in the blogging industry. This article aims to outline the steps we took to begin this incredible journey.
 
 
 ## Steps to create a blog

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,11 +9,7 @@
 </head>
 <body>
     <nav>
-        <ul class="navigation">
-            <li><a class="active" href="{{ '/' | relative_url}}"><span class="icon icon-home"></span></a></li>
-            <li><a href="{{ '/tags/' | relative_url}}"><span class="icon icon-label"></span>&nbsp;Topics</a></li>
-            <li style="float:right"><a href="{{ '/about/' | relative_url}}"><span class="icon icon-help"></span>&nbsp;About</a></li>
-        </ul>
+      {% include navigation.html %}
     </nav>
     
   <section class="content">

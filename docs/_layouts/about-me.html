@@ -8,6 +8,7 @@ layout: default
     <div class="row">
       <div class="col-s-4 col-m-2">  
         <img width="150px" style="object-fit: fill" 
+         alt="Bart Geluykens"
         src="{{ '/assets/image/profile.png' | relative_url }}"/>
       </div>
       <div class="col-s-8 col-m-6">
@@ -44,7 +45,7 @@ layout: default
         </div>
       </div>
       <div class="col-s12-col-m4">
-        {% capture new_social %}<a href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}">linkedin</a>{% endcapture %}
+        {% capture new_social %}<a  aria-label="Folow me on facebook" href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}" aria-label="Folow me on Linkedin" >linkedin</a>{% endcapture %}
         {% include metadata.html 
           icon="icon-handshake" 
           title="Socials" 
@@ -53,10 +54,10 @@ layout: default
 
         {% capture new_carreer %}
         <div class="chips">
-          <a href="{{page.cv-en}}" class="chip">English</a>
-          <a href="{{page.cv-fr}}" class="chip">French</a>
-          <a href="{{page.cv-nl}}" class="chip">Dutch</a>
-          <a href="{{page.cv-es}}" class="chip">Español</a>
+          <a href="{{page.cv-en}}" aria-label="Get my CV in English"  class="chip">English</a>
+          <a href="{{page.cv-fr}}" aria-label="Get my CV in French" class="chip">French</a>
+          <a href="{{page.cv-nl}}" aria-label="Get my CV in Dutch"  class="chip">Dutch</a>
+          <a href="{{page.cv-es}}" aria-label="Get my CV in Spanish"  class="chip">Spanish</a>
         </div>
         {% endcapture %}
 
@@ -68,9 +69,9 @@ layout: default
 
         {% capture new_hobbies %}
         <div class="chips">
-          <a href="" class="chip">Traveling</a>
-          <a href="" class="chip">Yoga</a>
-          <a href="" class="chip">Diving</a>
+          <a href="" class="chip" aria-label="For future use, link to traveling">Traveling</a>
+          <a href="" class="chip" aria-label="For future use, link to Yoga">Yoga</a>
+          <a href="" class="chip" aria-label="For future use, link to Diving">Diving</a>
         </div>
         {% endcapture %}
 

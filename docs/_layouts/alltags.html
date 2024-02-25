@@ -10,7 +10,9 @@ layout: default
             <div class="chips">
                 {% for tag in site.tags %}
                   <a class="chip"
-                    href={{ "/tags/" | append: tag.tagname| append: "/"  | relative_url }} rel="category tag">
+                    href={{ "/tags/" | append: tag.tagname| append: "/"  | relative_url }} rel="category tag"
+                    aria-label="Go to tag {{tag.tagname}}">
+
                     {{ tag.tagname }}
                   </a>
                 {% endfor %}

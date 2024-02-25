@@ -27,7 +27,7 @@ layout: default
                 <a href="{{ post.url | relative_url }}" class="blog-entry">
                     <h1 class="post-title p-name" itemprop="name headline">{{post.title | escape}}</h1>
                     <div class="blog-entry">
-                        <img width="100%" src="{{ '/assets/image/' | append: post.image | relative_url }}"/>
+                        <img width="100%" alt="{{post.title}}" src="{{ '/assets/image/' | append: post.image | relative_url }}"/>
                         <div>{{ post.date | date: date_format }}</div>
                         {%- if site.show_excerpts -%}
                                 {{ post.excerpt }}
