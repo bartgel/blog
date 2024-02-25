@@ -7,6 +7,7 @@ author:
   - Bart Geluykens
 tags: blog design
 image: "blog-pixabay.jpg"
+toc: true
 ---
 
 ## The day I decided to write a blog
@@ -31,6 +32,12 @@ But why not sharing these thoughts with the rest of the world, get peoples react
 ### Step 01: Create a vision board
 
 One of the most important things is that you need to know where you are heading to.
+
+
+-> Value
+-> Lanugages
+-> Audience
+-> Looks
 
 
 

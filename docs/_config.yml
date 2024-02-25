@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: a consious solution
+title: a conscious solution
 email: bart.geluykens@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal blogsite. This is still work in progress.
@@ -27,6 +27,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
+  
 
 sass:
   style: compact   
@@ -35,6 +37,17 @@ collections:
   tags:
     output: true
     permalink: tags/:path/
+
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
