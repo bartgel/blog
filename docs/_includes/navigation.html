@@ -1,5 +1,13 @@
+
 <ul class="navigation">
-    <li><a class="active" aria-label="Go to the landing page" href="{{ '/' | relative_url}}"><span class="icon icon-home"></span></a></li>
-    <li><a href="{{ '/tags/' | relative_url}}" aria-label="Browse all the topics"><span class="icon icon-label"></span>&nbsp;Topics</a></li>
-    <li style="float:right"><a href="{{ '/about/' | relative_url}}" aria-label="About me and the blog"><span class="icon icon-help"></span>&nbsp;About</a></li>
+    <li><div class="logo" title="{{site.title}}"></div></li>
+    <li><a class="active" 
+        title="Go to the landing page" 
+        aria-label="Go to the landing page" href="{{ '/' | relative_url}}"><span class="icon icon-home"></span></a></li>
+    <li><a href="{{ '/tags/' | relative_url}}" 
+        title="Browse all the topics"
+        aria-label="Browse all the topics"><span class="icon icon-label"></span>&nbsp;Topics</a></li>
+    <li style="float:right"><a href="{{ '/about/' | relative_url}}" 
+        title="About me and the blog"
+        aria-label="About me and the blog"><span class="icon icon-help"></span>&nbsp;About</a></li>
 </ul>

@@ -20,7 +20,11 @@ https://github.com/toshimaru/jekyll-toc
 AI: 
 https://app.copy.ai/teamspace/1589358/projects/37903013?teamspaceId=1589358&tool=chat&tab=results&sidebar=tools
 
-https://rytr.me/
+https://rytr.me/ 
+
+
+ lighthouse http://localhost:4000
+
 
 Mobile test
 https://github.com/GoogleChrome/lighthouse

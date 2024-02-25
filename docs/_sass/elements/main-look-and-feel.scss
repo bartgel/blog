@@ -4,3 +4,14 @@ body {
     padding: 0;
     background-color: $no-focus-background;
 }
+
+
+a {
+    color: $link-color-default;
+}
+
+a:hover {
+    color: $link-color-hover;
+    background-color: $link-color-background-hover;
+    text-decoration: none;
+}
