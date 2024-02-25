@@ -13,8 +13,6 @@ spoken-languages:
 - Spanish 
 - Dutch 
 - French
-facebook: https://
-linkedin: https://
 cv-en: https://github.com/bartgel/web/releases/download/main/cv_en.pdf
 cv-es: https://github.com/bartgel/web/releases/download/main/cv_es.pdf
 cv-nl: https://github.com/bartgel/web/releases/download/main/cv_nl.pdf

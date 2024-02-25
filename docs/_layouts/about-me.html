@@ -45,7 +45,8 @@ layout: default
         </div>
       </div>
       <div class="col-s12-col-m4">
-        {% capture new_social %}<a  aria-label="Folow me on facebook" href="{{ page.facebook }}">facebook</a> | <a href="{{ page.linkedin }}" aria-label="Folow me on Linkedin" >linkedin</a>{% endcapture %}
+        {% capture new_social %}<a  aria-label="Folow me on facebook" href="{{ site.facebook_link }}">facebook</a> | 
+        <a href="{{ site.linkedin_link }}" aria-label="Folow me on Linkedin" >linkedin</a>{% endcapture %}
         {% include metadata.html 
           icon="icon-handshake" 
           title="Socials" 

@@ -31,3 +31,6 @@ https://github.com/GoogleChrome/lighthouse
 
 https://www.sitepoint.com/23-development-tools-boosting-website-performance/
 https://ahrefs.com/blog/free-seo-tools/?ref=buffer.com
+
+
+https://perchance.org/ai-icon-generator
