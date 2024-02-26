@@ -20,7 +20,7 @@ Over time, I realized the potential impact of sharing these thoughts with the wo
 
 ## Steps to create a blog
 
-1. My vision board
+1. Work that vision
 2. Do the research
 3. Define my audience
 4. Choose a platform
